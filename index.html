@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Uso correto do protetor auditivo" />
+    <meta name="author" content="SESI" />
+    <title>SESI vida | Uso correto do protetor auditivo</title>
+    <link rel="icon" type="image/png" href="src/img/Favicon.webp" />
+
+    <!-- Fonts GIBSON -->
+    <link rel="stylesheet" href="https://use.typekit.net/xqh7gyj.css" />
+
+    <!--Import Google Icon Font-->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+    />
+
+    <!-- CSS -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="src/css/main.css"
+      media="screen"
+    />
+
+    <!-- Vue DEV MODE -->
+    <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+
+    <!-- Vue PROD MODE -->
+    <script
+      rel="preconnect"
+      src="https://unpkg.com/vue@3/dist/vue.global.prod.js"
+    ></script>
+
+    <!-- Scorm JS -->
+    <!-- <script src="src/js/scorm/APIWrapper.js" defer></script>
+    <script src="src/js/scorm/SCOFunctions.js" defer></script>
+    <script src="src/js/scorm/scorm-app.js" defer></script> -->
+
+    <link rel="preload" href="src/img/aula/Hero-s.webp" as="image" />
+    <link rel="preload" href="src/img/aula/Hero.webp" as="image" />
+
+    <!-- Materialize JS -->
+    <script
+      type="text/javascript"
+      src="src/js/bin/materialize.js"
+      defer
+    ></script>
+
+    <!-- AOS JS -->
+    <script
+      type="text/javascript"
+      src="src/js/aos-master/aos.js"
+      defer
+    ></script>
+
+    <!-- App.js JS customizado aqui -->
+    <script type="module" src="src/js/app.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="src/css/aos.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- loading ---------------------------------- -->
+      <div id="loading">
+        <div class="spinner"></div>
+      </div>
+      <div id="content">
+        <!-- Sidebar ---------------------------------- -->
+        <sidebar></sidebar>
+
+        <!-- Navbar ---------------------------------- -->
+        <navbar></navbar>
+
+        <!-- Hero Banner ---------------------------------- -->
+        <hero> Uso correto do protetor auditivo </hero>
+
+        <!-- introduçao ------------------------------------>
+        <div id="introducao" class="pt-80 pb-184 bg-green-light">
+          <div class="container--medium">
+            <h1 class="blue-deep-text mb-32" data-aos="fade-up">Introdução</h1>
+            <h3 class="white-text">
+              Você está aprendendo este conteúdo para garantir a proteção da
+              saúde auditiva, a fim de não desencadear ou agravar perdas
+              auditivas relacionadas ao trabalho.
+            </h3>
+            <h5 class="blue-deep-text mt-24">Você vai aprender:</h5>
+            <ul class="blue-deep-text">
+              <li class="mt-8">
+                História do Equipamento de Proteção Auditiva (EPA);
+              </li>
+              <li class="mt-8">
+                O que são os Equipamentos de Proteção Auditiva (EPAs); 
+              </li>
+              <li class="mt-8">
+                Conhecendo o risco ruído e limites de tolerância;
+              </li>
+              <li class="mt-8">Efeitos do ruído na saúde auditiva e geral;</li>
+              <li class="mt-8">Conhecendo a audição;</li>
+              <li class="mt-8">Quais são os tipos de EPA;</li>
+              <li class="mt-8">
+                Maneiras corretas de utilização do EPA (manutenção, guarda,
+                higienização e identificação do EPA adequado para sua orelha).
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="videoText">
+          <div class="container">
+            <video autoplay muted loop>
+              <source src="src/img/aula/video-01.mp4" type="video/mp4" />
+            </video>
+            <div class="card">
+              <div class="card-content">
+                <p class="blue-light-text">
+                   A aplicação de todo esse conteúdo deverá ocorrer durante a
+                  sua jornada de trabalho. Por meio das capacitações, você
+                  poderá aplicar em sua rotina laboral a melhor maneira de
+                  utilização do EPA para prevenção da perda auditiva. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- historia ------------------------------------>
+        <div id="historia" class="pt-80">
+          <div class="container--medium">
+            <h1 class="blue-deep-text mb-32 center-align" data-aos="fade-up">
+              História do protetor auditivo
+            </h1>
+            <p>
+              Os protetores auditivos, na forma de dispositivos projetados
+              especificamente para proteger os ouvidos contra ruído, têm uma
+              história que remonta a várias décadas. Embora protetores auditivos
+              rudimentares possam ter sido utilizados desde tempos antigos, os
+              dispositivos modernos, conforme conhecemos hoje, começaram a ser
+              desenvolvidos mais intensivamente a partir do final do século XIX
+              e início do século XX.
+            </p>
+
+            <div class="timeline layout2 py-80">
+              <div class="container-t right-t" data-aos="fade-up">
+                <div class="content-t p-40">
+                  <img
+                    src="src/img/aula/static-01.webp"
+                    class="square mr-16 mb-16-mobile"
+                    alt="História do protetor auditivo"
+                  />
+                  <p class="m-0">
+                    Durante a Primeira Guerra Mundial, por exemplo, os soldados
+                    começaram a utilizar protetores auriculares improvisados,
+                    geralmente feitos de algodão ou cera, para proteger seus
+                    ouvidos dos sons explosivos das armas. No entanto, a
+                    fabricação em massa e o desenvolvimento mais formal de
+                    protetores auditivos como dispositivos de proteção auditiva
+                    ocorreram nas décadas seguintes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="container-t right-t" data-aos="fade-up">
+                <div class="content-t p-40">
+                  <img
+                    src="src/img/aula/static-02.webp"
+                    class="square mr-16 mb-16-mobile"
+                    alt="História do protetor auditivo"
+                  />
+                  <p class="m-0">
+                    Ao longo do século XX e início do século XXI, houve avanços
+                    significativos na tecnologia de proteção auditiva,
+                    resultando em uma ampla variedade de protetores disponíveis
+                    atualmente, incluindo protetores auriculares de espuma,
+                    protetores auriculares moldáveis, protetores eletrônicos e
+                    até protetores personalizados.
+                  </p>
+                </div>
+              </div>
+
+              <div class="container-t right-t" data-aos="fade-up">
+                <div class="content-t p-40">
+                  <img
+                    src="src/img/aula/static-03.webp"
+                    class="square mr-16 mb-16-mobile"
+                    alt="História do protetor auditivo"
+                  />
+                  <p class="m-0">
+                    A criação do protetor auditivo moderno e sua evolução ao
+                    longo do tempo foram impulsionadas pela crescente
+                    conscientização sobre a importância da proteção auditiva e
+                    dos efeitos prejudiciais do ruído excessivo na saúde
+                    auditiva.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <hr style="border: 1px solid #0b66b033" />
+        </div>
+
+        <!-- Equipamentos ------------------------------------>
+        <div id="equipamentos" class="pt-80">
+          <div class="container--medium">
+            <h1 class="blue-deep-text mb-32 center-align" data-aos="fade-up">
+              O que são equipamentos de proteção auditivas (EPAS?)
+            </h1>
+          </div>
+          <div class="container">
+            <carousel-sst></carousel-sst>
+          </div>
+        </div>
+
+        <!-- Conhecendo o risco ruído e limites de tolerância ------------------------------------>
+        <div id="risco" class="py-80">
+          <div class="container">
+            <h1 class="blue-deep-text mb-32 center-align" data-aos="fade-up">
+              Conhecendo o risco ruído e limites de tolerância
+            </h1>
+
+            <div class="slide-cards py-24">
+              <!-- Card -->
+              <div class="card mr-24">
+                <div class="card-image activator">
+                  <img
+                    src="src/img/aula/risco-01.jpg"
+                    loading="lazy"
+                    alt="Mulher sorridente"
+                  />
+                  <div
+                    class="activator waves-effect waves-light"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      bottom: 0;
+                      right: 0;
+                      left: 0;
+                    "
+                  ></div>
+                </div>
+                <div class="card-content activator">
+                  <span
+                    class="card-title activator blue-light-text flex--justify-between"
+                  >
+                    <h5>Som</h5>
+
+                    <span class="material-symbols-rounded"> arrow_upward </span>
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span
+                    class="card-title blue-light-text flex--justify-between"
+                  >
+                    <h5>Som</h5>
+                    <span class="material-symbols-rounded"> close </span>
+                  </span>
+
+                  <p>
+                    O som é uma vibração que se propaga pelo ar em forma de
+                    ondas e é percebido pela orelha humana. É uma sensação
+                    agradável. Ele pode ser mais ou menos perigoso, dependendo
+                    da sua frequência e intensidade. 
+                  </p>
+                </div>
+              </div>
+
+              <!-- Card -->
+              <div class="card mr-24">
+                <div class="card-image activator">
+                  <img
+                    src="src/img/aula/risco-02.jpg"
+                    loading="lazy"
+                    alt="Mulher sorridente"
+                  />
+                  <div
+                    class="activator waves-effect waves-light"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      bottom: 0;
+                      right: 0;
+                      left: 0;
+                    "
+                  ></div>
+                </div>
+                <div class="card-content activator">
+                  <span
+                    class="card-title activator blue-light-text flex--justify-between"
+                  >
+                    <h5>Ruído</h5>
+
+                    <span class="material-symbols-rounded"> arrow_upward </span>
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span
+                    class="card-title blue-light-text flex--justify-between"
+                  >
+                    <h5>Ruído</h5>
+                    <span class="material-symbols-rounded"> close </span>
+                  </span>
+
+                  <p>
+                    O ruído é uma vibração que se propaga pelo ar em forma de
+                    ondas e é percebido pela orelha humana. É uma sensação
+                    desagradável. Ele pode ser mais ou menos perigoso,
+                    dependendo da sua frequência e intensidade.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Card -->
+              <div class="card mr-24">
+                <div class="card-image activator">
+                  <img
+                    src="src/img/aula/risco-03.jpg"
+                    loading="lazy"
+                    alt="Mulher sorridente"
+                  />
+                  <div
+                    class="activator waves-effect waves-light"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      bottom: 0;
+                      right: 0;
+                      left: 0;
+                    "
+                  ></div>
+                </div>
+                <div class="card-content activator">
+                  <span
+                    class="card-title activator blue-light-text flex--justify-between"
+                  >
+                    <h5>Frequência</h5>
+
+                    <span class="material-symbols-rounded"> arrow_upward </span>
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span
+                    class="card-title blue-light-text flex--justify-between"
+                  >
+                    <h5>Frequência</h5>
+                    <span class="material-symbols-rounded"> close </span>
+                  </span>
+
+                  <p>
+                    A frequência, medida em Hertz (Hz), é a quantidade de ondas
+                    de um som propagado no tempo de 1 segundo. Os sons de baixa
+                    frequência são chamados de graves e os de alta frequência de
+                    sons agudos. A nossa orelha é mais sensível em determinadas
+                    frequências do que em outras.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Card -->
+              <div class="card">
+                <div class="card-image activator">
+                  <img
+                    src="src/img/aula/risco-04.jpg"
+                    loading="lazy"
+                    alt="Mulher sorridente"
+                  />
+                  <div
+                    class="activator waves-effect waves-light"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      bottom: 0;
+                      right: 0;
+                      left: 0;
+                    "
+                  ></div>
+                </div>
+                <div class="card-content activator">
+                  <span
+                    class="card-title activator blue-light-text flex--justify-between"
+                  >
+                    <h5>Intensidade</h5>
+
+                    <span class="material-symbols-rounded"> arrow_upward </span>
+                  </span>
+                </div>
+                <div class="card-reveal">
+                  <span
+                    class="card-title blue-light-text flex--justify-between"
+                  >
+                    <h5>Intensidade</h5>
+                    <span class="material-symbols-rounded"> close </span>
+                  </span>
+
+                  <p>
+                    A intensidade, medida em decibel (dB), é a força ou pressão
+                    que o som exerce em nossas orelhas. É conhecida como altura
+                    ou volume. Um lugar tranquilo tem sons de baixa intensidade,
+                    enquanto uma máquina ruidosa tem alta intensidade. Quando a
+                    intensidade alcança altos valores, o ruído se transforma em
+                    risco para o trabalhador, colocando em perigo a sua audição.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container--medium">
+            <div
+              class="p-16 my-80 box-attention box-attention--blue-light flex--align-center"
+              data-aos="fade-up"
+            >
+              <h5 class="white-text">
+                A intensidade do som está relacionada com a amplitude. Som mais
+                forte (maior intensidade) tem maior amplitude e som mais fraco
+                (menor intensidade) tem menor amplitude.
+              </h5>
+            </div>
+
+            <img
+              class="materialboxed"
+              src="src/img/aula/infografico.webp"
+              alt="infografico ruído"
+              style="width: 100%"
+            />
+          </div>
+        </div>
+
+        <!-- fatores ------------------------------------>
+        <div
+          id="fatores"
+          class="pt-80 blue-light-to-blue-green-bg"
+          style="overflow: hidden"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col l5 m8 s12">
+                <h1 class="white-text mb-32" data-aos="fade-up">
+                  Fatores que influenciam na perda da audição devido ao ruído
+                </h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col m5 s12 pb-80 pb-0-mobile">
+                <ul class="collapsible mt-40">
+                  <li>
+                    <div class="collapsible-header">
+                      <h5>1. Tempo de exposição:</h5>
+                    </div>
+                    <div class="collapsible-body">
+                      <p>quanto maior esse tempo, maior o perigo. </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header">
+                      <h5>2. Tipo de ruído:</h5>
+                    </div>
+                    <div class="collapsible-body">
+                      <p>
+                        contínuo (ocorre sem parar), intermitente (ocorre de vez
+                        em quando) ou de impacto (ocorre de repente).
+                      </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header">
+                      <h5>3. Lesões na orelha:</h5>
+                    </div>
+                    <div class="collapsible-body">
+                      <p>causadas por problemas de infecções e inflamações. </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header">
+                      <h5>4. Sensibilidade individual:</h5>
+                    </div>
+                    <div class="collapsible-body">
+                      <p>
+                        varia de acordo com a idade e com a resistência do
+                        organismo de cada pessoa.
+                      </p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header">
+                      <h5>5. Distância da fonte ruidosa:</h5>
+                    </div>
+                    <div class="collapsible-body">
+                      <p>quanto mais próximo, maior o perigo.</p>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="collapsible-header">
+                      <h5>6. Intensidade:</h5>
+                    </div>
+                    <div class="collapsible-body">
+                      <p>
+                        quanto maior a intensidade, maior o risco para o
+                        trabalhador.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col m1"></div>
+              <div class="col m6 s12 flex--align-end">
+                <img
+                  src="src/img/aula/fatores.webp"
+                  alt="Desenho"
+                  class="menina"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- limites ------------------------------------>
+        <div id="limites">
+          <div class="bg-green-light py-80">
+            <div class="container--medium">
+              <h1 class="white-text mb-32 center-align" data-aos="fade-up">
+                Limites de tolerância do ruído
+              </h1>
+              <h2 class="blue-deep-text mb-32 center-align" data-aos="fade-up">
+                Legislação trabalhista
+              </h2>
+            </div>
+
+            <div class="container">
+              <carousel-sst-02></carousel-sst-02>
+            </div>
+
+            <div class="container--medium mt-80">
+              <h4 class="white-text center-align">
+                NR 15 - ATIVIDADES E OPERAÇÕES INSALUBRESANEXO N.º 1LIMITES DE
+                TOLERÂNCIA PARA RUÍDO CONTÍNUO OU INTERMITENTE
+              </h4>
+
+              <table class="mt-40">
+                <tr>
+                  <th>NÍVEL DE RUÍDO</th>
+                  <th>MÁXIMA EXPOSIÇÃO DIÁRIA PERMISSÍVEL</th>
+                </tr>
+                <tr>
+                  <td>85</td>
+                  <td>8 horas</td>
+                </tr>
+                <tr>
+                  <td>86</td>
+                  <td>7 horas</td>
+                </tr>
+                <tr>
+                  <td>87</td>
+                  <td>6 horas</td>
+                </tr>
+                <tr>
+                  <td>88</td>
+                  <td>5 horas</td>
+                </tr>
+                <tr>
+                  <td>89</td>
+                  <td>4 horas e 30 minutos</td>
+                </tr>
+                <tr>
+                  <td>90</td>
+                  <td>4 horas</td>
+                </tr>
+                <tr>
+                  <td>91</td>
+                  <td>3 horas e 30 minutos</td>
+                </tr>
+                <tr>
+                  <td>92</td>
+                  <td>3 horas</td>
+                </tr>
+                <tr>
+                  <td>93</td>
+                  <td>2 horas e 40 minutos</td>
+                </tr>
+                <tr>
+                  <td>94</td>
+                  <td>2 horas e 15 minutos</td>
+                </tr>
+                <tr>
+                  <td>95</td>
+                  <td>2 horas</td>
+                </tr>
+                <tr>
+                  <td>96</td>
+                  <td>1 hora e 45 minutos</td>
+                </tr>
+                <tr>
+                  <td>98</td>
+                  <td>1 hora e 15 minutos</td>
+                </tr>
+                <tr>
+                  <td>100</td>
+                  <td>1 hora</td>
+                </tr>
+                <tr>
+                  <td>102</td>
+                  <td>45 minutos</td>
+                </tr>
+                <tr>
+                  <td>104</td>
+                  <td>35 minutos</td>
+                </tr>
+                <tr>
+                  <td>105</td>
+                  <td>30 minutos</td>
+                </tr>
+                <tr>
+                  <td>106</td>
+                  <td>25 minutos</td>
+                </tr>
+                <tr>
+                  <td>108</td>
+                  <td>20 minutos</td>
+                </tr>
+                <tr>
+                  <td>110</td>
+                  <td>15 minutos</td>
+                </tr>
+                <tr>
+                  <td>112</td>
+                  <td>10 minutos</td>
+                </tr>
+                <tr>
+                  <td>114</td>
+                  <td>8 minutos</td>
+                </tr>
+                <tr>
+                  <td>115</td>
+                  <td>7 minutos</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="container--medium mt-80">
+            <h1 class="blue-green-text center-align mb-32" data-aos="fade-up">
+              Efeitos do ruído na saúde auditiva geral
+            </h1>
+            <div class="center-align">
+              <img
+                class="materialboxed"
+                src="src/img/aula/limites-04.webp"
+                alt="Gráfico"
+                style="width: 100%; max-width: 584px; margin: auto"
+              />
+            </div>
+
+            <p>
+              O excesso de ruído afeta o trabalhador em vários aspectos. No
+              entanto, a única doença específica associada à exposição ao ruído
+              alto, ou seja, acima dos limites de tolerância, é a perda
+              auditiva. Alguns fatores como frequência do ruído, intensidade,
+              duração, ritmo, tempo de exposição, suscetibilidade individual e a
+              atitude de cada indivíduo diante do som são primordiais para a
+              ocorrência e o desencadeamento da perda auditiva provocada pelo
+              ruído.
+            </p>
+
+            <p>
+              Além da perda auditiva, o ruído pode perturbar o trabalho, o
+              descanso, o sono e a comunicação nos seres humanos. Pode
+              prejudicar a audição e causar ou provocar reações psicológicas e
+              fisiológicas. 
+            </p>
+
+            <p>
+              O excesso de ruído também contribui para o aparecimento dos
+              efeitos extra-auditivos, que interferem diretamente na saúde geral
+              do trabalhador, como problemas de cansaço/estresse, irritação,
+              ansiedade, nervosismo, falta de concentração, depressão, falta de
+              atenção, problemas gastrointestinal, como queimação no estômago, e
+              prisão de ventre, distúrbios de comunicação, além de insônia, como
+              dificuldade para iniciar o adormecimento e de despertares
+              frequentes.
+            </p>
+            <p>
+              Dessa maneira, podemos refletir sobre a problemática dos efeitos
+              do ruído no corpo humano, a qual deve ser vista não somente no
+              meio industrial, mas na comunidade em geral, servindo como alerta
+              para todas as pessoas, principalmente moradores das grandes
+              cidades, onde observa-se, cada vez mais, o aumento da poluição
+              sonora.
+            </p>
+          </div>
+        </div>
+
+        <!-- Efeitos do ruído na saúde auditiva geral ------------------------------------>
+        <div id="saude" class="py-80">
+          <div class="container">
+            <p class="blue-deep-text center-align mb-60">
+              Clique nos ícones para saber mais
+            </p>
+
+            <div class="row">
+              <div class="col m4 s12 flex--justify-center">
+                <div class="pulse-review flex--align-center flex--column">
+                  <a
+                    @click="pulseReview($event)"
+                    class="btn-floating btn-large pulse mb-32 flex--justify-center waves-effect waves-light"
+                    style="
+                      border-radius: 50%;
+                      width: 90px;
+                      height: 90px;
+                      background-color: #ceeaf4;
+                      box-shadow: none;
+                    "
+                  >
+                    <img
+                      style="pointer-events: none"
+                      src="src/img/aula/efeitos-01.webp"
+                      alt="Efeitos"
+                    />
+                  </a>
+                  <div class="scale-transition scale-out">
+                    <h5
+                      class="white-text bg-blue-light py-8 px-16"
+                      style="border-radius: 3px"
+                    >
+                      Perda Auditiva Induzida por Ruído (PAIR)
+                    </h5>
+                    <p>
+                      A exposição prolongada a ruídos intensos, seja no ambiente
+                      de trabalho, em eventos recreativos ou em ambientes
+                      urbanos barulhentos, pode causar danos permanentes na
+                      audição, como a perda auditiva.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col m4 s12">
+                <div class="pulse-review flex--align-center flex--column">
+                  <a
+                    @click="pulseReview($event)"
+                    class="btn-floating btn-large pulse mb-32 flex--justify-center waves-effect waves-light"
+                    style="
+                      border-radius: 50%;
+                      width: 90px;
+                      height: 90px;
+                      background-color: #ceeaf4;
+                      box-shadow: none;
+                    "
+                  >
+                    <img
+                      style="pointer-events: none"
+                      src="src/img/aula/efeitos-02.webp"
+                      alt="Efeitos"
+                    />
+                  </a>
+                  <div class="scale-transition scale-out">
+                    <h5
+                      class="white-text bg-blue-light py-8 px-16"
+                      style="border-radius: 3px"
+                    >
+                      Zumbido (Tinnitus)
+                    </h5>
+                    <p>
+                      O ruído excessivo também pode levar ao desenvolvimento de
+                      zumbido, uma condição em que a pessoa percebe sons
+                      fantasmas ou zumbidos nos ouvidos, mesmo na ausência de
+                      estímulos sonoros externos. O zumbido pode ser crônico e
+                      ter um impacto significativo na qualidade de vida.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col m4 s12">
+                <div class="pulse-review flex--align-center flex--column">
+                  <a
+                    @click="pulseReview($event)"
+                    class="btn-floating btn-large pulse mb-32 flex--justify-center waves-effect waves-light"
+                    style="
+                      border-radius: 50%;
+                      width: 90px;
+                      height: 90px;
+                      background-color: #ceeaf4;
+                      box-shadow: none;
+                    "
+                  >
+                    <img
+                      style="pointer-events: none"
+                      src="src/img/aula/efeitos-03.webp"
+                      alt="Efeitos"
+                    />
+                  </a>
+                  <div class="scale-transition scale-out">
+                    <h5
+                      class="white-text bg-blue-light py-8 px-16"
+                      style="border-radius: 3px"
+                    >
+                      Aumento do Estresse e da Fadiga
+                    </h5>
+                    <p>
+                      A exposição constante a ruídos altos pode causar estresse
+                      físico e emocional, levando à fadiga, irritabilidade e
+                      dificuldade de concentração. Isso pode afetar o desempenho
+                      no trabalho, nos estudos e nas atividades diárias.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-60">
+              <div class="col m5 s12 valign-wrapper">
+                <h1 class="blue-light-text" data-aos="fade-up">
+                  Conhecendo a audição
+                </h1>
+              </div>
+              <div class="col m6 s12">
+                <a
+                  href="https://youtu.be/TfC2AKRuh1Q"
+                  target="_blank"
+                  class="video-img"
+                >
+                  <img
+                    id="playBtn"
+                    src="src/img/aula/button-video.svg"
+                    alt="Botão Play Video"
+                  />
+                  <img
+                    style="width: 100%"
+                    src="src/img/aula/audicao.webp"
+                    alt="Conhecendo a audição"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Equipamento de proteção auditiva (EPA) ------------------------------------>
+        <div id="protecao" class="pb-80">
+          <div class="container--medium">
+            <h1 class="green-light-text" data-aos="fade-up">
+              Equipamento de proteção auditiva (EPA)
+            </h1>
+            <p>
+              Os Equipamentos de Proteção Auditiva (EPAs) são aprovados para
+              proteção do sistema auditivo do usuário contra níveis de pressão
+              sonora superiores ao estabelecido na NR 15 (anexos I e II).
+            </p>
+            <p>
+              Os protetores auditivos devem ser utilizados durante todo o tempo
+              que estiver exposto ao risco. De acordo com a Norma
+              Regulamentadora 06., item 6.5 - Responsabilidades da organização:
+            </p>
+
+            <h3 class="blue-deep-text">
+              6.5.1 Cabe à organização, quanto ao EPI:
+            </h3>
+            <p class="blue-deep-text">Interaja com os ícones para saber mais</p>
+
+            <div class="icon-reveal-container">
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-01"
+              >
+                <span class="material-symbols-rounded"> add_task </span>
+                <div id="tooltip-content-01" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Adquirir somente o aprovado pelo órgão de âmbito nacional
+                    competente em matéria de segurança e saúde no trabalho;
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-02"
+              >
+                <span class="material-symbols-rounded">
+                  interactive_space
+                </span>
+                <div id="tooltip-content-02" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Orientar e treinar o empregado;
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-03"
+              >
+                <span class="material-symbols-rounded"> news </span>
+                <div id="tooltip-content-03" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Fornecer ao empregado, gratuitamente, EPI adequado ao risco,
+                    em perfeito estado de conservação e funcionamento, nas
+                    situações previstas no subitem 1.5.5.1.2 da Norma
+                    Regulamentadora nº 01 (NR-01) - Disposições Gerais e
+                    Gerenciamento de Riscos Ocupacionais, observada a hierarquia
+                    das medidas de prevenção;
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-04"
+              >
+                <span class="material-symbols-rounded"> demography </span>
+                <div id="tooltip-content-04" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Registrar o seu fornecimento ao empregado, podendo ser
+                    adotados livros, fichas ou sistema eletrônico, inclusive,
+                    por sistema biométrico;
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="icon-reveal-container mt-24">
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-05"
+              >
+                <span class="material-symbols-rounded"> assured_workload </span>
+                <div id="tooltip-content-05" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Exigir seu uso;
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-06"
+              >
+                <span class="material-symbols-rounded"> cleaning </span>
+                <div id="tooltip-content-06" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Responsabilizar-se pela higienização e manutenção periódica,
+                    quando aplicáveis esses procedimentos, em conformidade com
+                    as informações fornecidas pelo fabricante ou importador;
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped mr-24"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-07"
+              >
+                <span class="material-symbols-rounded"> cycle </span>
+                <div id="tooltip-content-07" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Substituir imediatamente, quando danificado ou extraviado;
+                  </p>
+                </div>
+              </div>
+
+              <!-- Tooltip -->
+              <div
+                class="icon-reveal tooltipped"
+                data-html="true"
+                data-position="bottom"
+                data-tooltip-id="tooltip-content-08"
+              >
+                <span class="material-symbols-rounded"> contact_phone </span>
+                <div id="tooltip-content-08" style="display: none">
+                  <p class="white-text" style="font-size: 13.5px">
+                    Comunicar ao órgão de âmbito nacional competente em matéria
+                    de segurança e saúde no trabalho qualquer irregularidade
+                    observada.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="blue-deep-text mt-80">
+              6.6 Responsabilidades do trabalhador
+            </h3>
+            <h5 class="mb-24">6.6.1 Cabe ao trabalhador, quanto ao EPI:</h5>
+            <div>
+              <div class="icon-reveal-container">
+                <!-- Tooltip -->
+                <div
+                  class="icon-reveal tooltipped mr-24"
+                  data-html="true"
+                  data-position="bottom"
+                  data-tooltip-id="tooltip-content-09"
+                >
+                  <span class="material-symbols-rounded"> hearing_aid </span>
+                  <div id="tooltip-content-09" style="display: none">
+                    <p class="white-text" style="font-size: 13.5px">
+                      Usar o fornecido pela organização, observado o disposto no
+                      item 6.5.2;
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Tooltip -->
+                <div
+                  class="icon-reveal tooltipped mr-24"
+                  data-html="true"
+                  data-position="bottom"
+                  data-tooltip-id="tooltip-content-10"
+                >
+                  <span class="material-symbols-rounded"> target </span>
+                  <div id="tooltip-content-10" style="display: none">
+                    <p class="white-text" style="font-size: 13.5px">
+                      Utilizar apenas para a finalidade a que se destina;
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Tooltip -->
+                <div
+                  class="icon-reveal tooltipped mr"
+                  data-html="true"
+                  data-position="bottom"
+                  data-tooltip-id="tooltip-content-11"
+                >
+                  <span class="material-symbols-rounded"> soap </span>
+                  <div id="tooltip-content-11" style="display: none">
+                    <p class="white-text" style="font-size: 13.5px">
+                      Responsabilizar-se pela limpeza, guarda e conservação;
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="icon-reveal-container mt-24">
+                <!-- Tooltip -->
+                <div
+                  class="icon-reveal tooltipped mr-24"
+                  data-html="true"
+                  data-position="bottom"
+                  data-tooltip-id="tooltip-content-12"
+                >
+                  <span class="material-symbols-rounded"> warning </span>
+                  <div id="tooltip-content-12" style="display: none">
+                    <p class="white-text" style="font-size: 13.5px">
+                      Comunicar à organização quando extraviado, danificado ou
+                      qualquer alteração que o torne impróprio para uso;
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Tooltip -->
+                <div
+                  class="icon-reveal tooltipped"
+                  data-html="true"
+                  data-position="bottom"
+                  data-tooltip-id="tooltip-content-13"
+                >
+                  <span class="material-symbols-rounded"> checklist </span>
+                  <div id="tooltip-content-13" style="display: none">
+                    <p class="white-text" style="font-size: 13.5px">
+                      Cumprir as determinações da organização sobre o uso
+                      adequado.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tipos de protetores auditivos ------------------------------------>
+        <div id="tipos" class="container--medium pb-40 pt-80">
+          <h1 class="center-align blue-deep-text mb-32" data-aos="fade-up">
+            Tipos de protetores auditivos
+          </h1>
+
+          <div class="row mt-32">
+            <div class="col m9 s12">
+              <h5>Protetores auriculares de espuma</h5>
+              <p>
+                Feitos de espuma moldável e de fácil aplicação, são inseridos no
+                canal auditivo e se expandem para formar um selo que bloqueia o
+                ruído. São descartáveis e oferecem uma boa proteção em uma
+                variedade de ambientes.
+              </p>
+            </div>
+            <div class="col m3 s12">
+              <img
+                data-aos="fade-up"
+                class="circle"
+                src="src/img/aula/tip-01.webp"
+                alt="b12"
+              />
+            </div>
+          </div>
+          <div class="row mt-24">
+            <div class="col m9 s12">
+              <h5>Protetores auriculares de silicone</h5>
+              <p>
+                Protetores auditivos do tipo inserção, confeccionados em
+                material de silicone ou copolímeros, podem ter tamanho único ou
+                três tamanhos, moldáveis a diferentes canais auditivos com apoio
+                dos flanges flexíveis, proporcionam conforto e vedação e fácil
+                colocação. São reutilizáveis e, portanto, devem ser
+                higienizados.
+              </p>
+            </div>
+            <div class="col m3 s12">
+              <img
+                data-aos="fade-up"
+                class="circle"
+                src="src/img/aula/tipo-02.webp"
+                alt="b12"
+              />
+            </div>
+          </div>
+          <div class="row mt-24">
+            <div class="col m9 s12">
+              <h5>Protetores auditivos tipo concha</h5>
+              <p>
+                Proporcionam atenuação uniforme nas duas conchas. Possuem
+                modelos variados para proporcionar diversos níveis de atenuação
+                e diferentes opções de haste para favorecer a compatibilidade
+                com outros EPAs. Alguns modelos possuem peças de reposição. 
+              </p>
+            </div>
+            <div class="col m3 s12">
+              <img
+                data-aos="fade-up"
+                class="circle"
+                src="src/img/aula/tipo-3.webp"
+                alt="b12"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <hr style="border: 1px solid #0b66b033" />
+        </div>
+
+        <!-- Modo de utilização dos EPA ------------------------------------>
+        <div id="utilizacao" class="mt-60">
+          <div class="container--medium">
+            <h1 class="center-align blue-light-text mb-32" data-aos="fade-up">
+              Modo de utilização dos EPA
+            </h1>
+            <div
+              class="box-attention box-attention--blue-light flex--align-center"
+              data-aos="fade-up"
+            >
+              <img src="src/img/aula/espuma-box.svg" alt="plug" class="p-16" />
+              <h5 class="white-text">
+                Como colocar o protetor de espuma moldável
+              </h5>
+            </div>
+            <ul>
+              <li
+                class="row valign-wrapper py-24"
+                style="border-bottom: 1px solid #00000026"
+              >
+                <div class="col m1">
+                  <img src="src/img/aula/n-01.svg" alt="numeração" />
+                </div>
+                <div class="col m5 s12">
+                  <img
+                    src="src/img/aula/utilizacao-01.webp"
+                    alt="Utilização"
+                    style="width: 100%"
+                  />
+                </div>
+                <div class="col m6 s12">
+                  <p>
+                    Com as mãos limpas, aperte e role o protetor entre os dedos
+                    até obter o menor diâmetro possível.
+                  </p>
+                </div>
+              </li>
+              <li
+                class="row valign-wrapper py-24"
+                style="border-bottom: 1px solid #00000026"
+              >
+                <div class="col m1">
+                  <img src="src/img/aula/n-02.svg" alt="numeração" />
+                </div>
+                <div class="col m5 s12">
+                  <img
+                    src="src/img/aula/utilizacao-02.webp"
+                    alt="Utilização"
+                    style="width: 100%"
+                  />
+                </div>
+                <div class="col m6 s12">
+                  <p>
+                    Para facilitar a colocação, puxe a orelha para cima e para
+                    trás e insira o protetor no canal auditivo.
+                  </p>
+                </div>
+              </li>
+              <li class="row valign-wrapper py-24">
+                <div class="col m1">
+                  <img src="src/img/aula/n-03.svg" alt="numeração" />
+                </div>
+                <div class="col m5 s12">
+                  <img
+                    src="src/img/aula/utilizacao-03.webp"
+                    alt="Utilização"
+                    style="width: 100%"
+                  />
+                </div>
+                <div class="col m6 s12">
+                  <p>
+                    Usando o dedo indicador, mantenha-o nessa posição
+                    (aproximadamente por 30 segundos), até que ele tenha se
+                    expandido.
+                  </p>
+                  <p>
+                    <b
+                      >Atenção: o protetor deverá ser descartado logo após seu
+                      uso.
+                    </b>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Cuidados ------------------------------------>
+        <div id="cuidados">
+          <div class="bg-blue-deep py-80">
+            <div class="container--medium white-text">
+              <div class="row">
+                <div class="col m5 s12">
+                  <h1 class="white-text" data-aos="fade-up">
+                    Cuidados e conservação do protetor tipo PLUG
+                  </h1>
+                  <img
+                    class="p-32"
+                    src="src/img/aula/Plug.webp"
+                    alt="Plug"
+                    style="width: 100%"
+                  />
+                </div>
+                <div class="col m1 s12"></div>
+                <div class="col m6 s12">
+                  <ul>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Higienizá-lo diariamente com água morna e sabão neutro. 
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Colocá-lo para secar à sombra em local ventilado.  
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Armazená-lo em bolsa, sacola ou caixa apropriada.  
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Mantê-lo sempre limpo e em boas condições de uso. 
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Não manuseá-lo com as mãos sujas. O equipamento não deve
+                        ter contato com álcool ou outros solventes químicos. 
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Quando não utilizado, conservá-lo na caixa, livre de
+                        contatos com sujeira e produtos químicos.
+                      </p>
+                    </li>
+                    <li class="flex--align-start">
+                      <p>
+                        <b>PERIODICIDADE DE TROCA:</b> Deverá ser substituído a
+                        cada três meses, independentemente da frequência de
+                        utilização.  
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h1 class="white-text my-24">Atenção</h1>
+              <div class="row py-24 px-16" style="border: 1px solid white">
+                <div class="col m6 s12">
+                  <ul>
+                    <li class="mb-32">
+                      <p>
+                        Reinserir protetores auditivos sujos em suas orelhas
+                        pode causar desconforto e/ou irritação da pele no canal
+                        auditivo. 
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Não utilize cremes ou loções para as mãos imediatamente
+                        antes de inseri-los no canal auditivo, pois esses
+                        produtos podem danificar os protetores. Sempre lave e
+                        enxágue as mãos antes de colocar os protetores
+                        auditivos. 
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="col m6 s12">
+                  <ul>
+                    <li class="mb-32">
+                      <p>
+                        Troque os protetores auditivos quando estiverem de tal
+                        forma sujos que seja impossível limpá-los utilizando
+                        apenas métodos convencionais de lavagem com água e sabão
+                        neutro. 
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Observe se os protetores não se encontram danificados
+                        antes de cada uso. Se observar algum corte ou outro
+                        dano, jogue os protetores fora e substitua-os.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container--medium mt-80">
+            <div>
+              <div
+                class="box-attention box-attention--blue-light flex--align-center"
+                data-aos="fade-up"
+              >
+                <img src="src/img/aula/plug-box.svg" alt="plug" class="p-16" />
+                <h5 class="white-text">Como colocar o protetor tipo plug</h5>
+              </div>
+              <ul>
+                <li
+                  class="row valign-wrapper py-24"
+                  style="border-bottom: 1px solid #00000026"
+                >
+                  <div class="col m1">
+                    <img src="src/img/aula/n-01.svg" alt="numeração" />
+                  </div>
+                  <div class="col m2 s12">
+                    <img
+                      src="src/img/aula/utilizacao-04.webp"
+                      alt="Utilização"
+                      style="width: 100%; max-width: 95px"
+                    />
+                  </div>
+                  <div class="col m9 s12">
+                    <p>Com as mãos limpas, segure o protetor pela haste.</p>
+                  </div>
+                </li>
+                <li
+                  class="row valign-wrapper py-24"
+                  style="border-bottom: 1px solid #00000026"
+                >
+                  <div class="col m1">
+                    <img src="src/img/aula/n-02.svg" alt="numeração" />
+                  </div>
+                  <div class="col m2 s12">
+                    <img
+                      src="src/img/aula/utilizacao-05.webp"
+                      alt="Utilização"
+                      style="width: 100%; max-width: 95px"
+                    />
+                  </div>
+                  <div class="col m9 s12">
+                    <p>
+                      Para facilitar a inserção do protetor, puxe a orelha na
+                      diagonal para cima e para trás.
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="row valign-wrapper py-24"
+                  style="border-bottom: 1px solid #00000026"
+                >
+                  <div class="col m1">
+                    <img src="src/img/aula/n-03.svg" alt="numeração" />
+                  </div>
+                  <div class="col m2 s12">
+                    <img
+                      src="src/img/aula/utilizacao-06.webp"
+                      alt="Utilização"
+                      style="width: 100%; max-width: 95px"
+                    />
+                  </div>
+                  <div class="col m9 s12">
+                    <p>
+                      Insira o protetor até o fundo da orelha (canal auditivo),
+                      de forma que não gere desconforto.
+                    </p>
+                  </div>
+                </li>
+                <li class="row valign-wrapper py-24">
+                  <div class="col m1">
+                    <img src="src/img/aula/n-04.svg" alt="numeração" />
+                  </div>
+                  <div class="col m2 s12">
+                    <img
+                      src="src/img/aula/utilizacao-07.webp"
+                      alt="Utilização"
+                      style="width: 100%; max-width: 95px"
+                    />
+                  </div>
+                  <div class="col m9 s12">
+                    <p>
+                      Pronto, o protetor deverá estar vedado dentro da orelha.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <div
+                class="box-attention box-attention--blue-light flex--align-center"
+                data-aos="fade-up"
+              >
+                <img
+                  src="src/img/aula/concha-box.svg"
+                  alt="concha"
+                  class="p-16"
+                />
+                <h5 class="white-text">Como colocar o protetor tipo concha</h5>
+              </div>
+              <ul>
+                <li
+                  class="row valign-wrapper py-24"
+                  style="border-bottom: 1px solid #00000026"
+                >
+                  <div class="col m1">
+                    <img src="src/img/aula/n-01.svg" alt="numeração" />
+                  </div>
+                  <div class="col m2 s12">
+                    <img
+                      src="src/img/aula/utilizacao-08.webp"
+                      alt="Utilização"
+                      style="width: 100%; max-width: 95px"
+                    />
+                  </div>
+                  <div class="col m9 s12">
+                    <p>
+                      Alinhe a altura das conchas de acordo com o tamanho da
+                      cabeça, de modo que as conchas cubram completamente o
+                      ouvido.
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="row valign-wrapper py-24"
+                  style="border-bottom: 1px solid #00000026"
+                >
+                  <div class="col m1">
+                    <img src="src/img/aula/n-02.svg" alt="numeração" />
+                  </div>
+                  <div class="col m2 s12">
+                    <img
+                      src="src/img/aula/utilizacao-09.webp"
+                      alt="Utilização"
+                      style="width: 100%; max-width: 95px"
+                    />
+                  </div>
+                  <div class="col m9 s12">
+                    <p>
+                      Retire o excesso de cabelo que fica entre o abafador e a
+                      orelha.
+                    </p>
+                  </div>
+                </li>
+                <li
+                  class="row valign-wrapper py-24"
+                  style="border-bottom: 1px solid #00000026"
+                >
+                  <div class="col m1">
+                    <img src="src/img/aula/n-03.svg" alt="numeração" />
+                  </div>
+                  <div class="col m2 s12">
+                    <img
+                      src="src/img/aula/utilizacao-10.webp"
+                      alt="Utilização"
+                      style="width: 100%; max-width: 95px"
+                    />
+                  </div>
+                  <div class="col m9 s12">
+                    <p>
+                      Certifique-se de que a vedação esteja satisfatória, sem a
+                      interferência de objetos como elásticos de respiradores ou
+                      armações de óculos. A orelha deve estar sempre solta
+                      dentro do círculo interno da concha. Evite que ela esteja
+                      presa ou pressionada pela almofada.
+                    </p>
+                  </div>
+                </li>
+                <li class="row valign-wrapper py-24">
+                  <div class="col m1">
+                    <img src="src/img/aula/n-04.svg" alt="numeração" />
+                  </div>
+                  <div class="col m2 s12">
+                    <img
+                      src="src/img/aula/utilizacao-11.webp"
+                      alt="Utilização"
+                      style="width: 100%; max-width: 95px"
+                    />
+                  </div>
+                  <div class="col m9 s12">
+                    <p>
+                      As conchas devem ficar alinhadas verticalmente para
+                      proporcionar melhor vedação. Nunca use com as conchas
+                      viradas para trás.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dicas ------------------------------------>
+        <div id="dicas">
+          <div class="dicas--bg"></div>
+          <div class="container--medium">
+            <h1 class="center-align green-text" data-aos="fade-up">
+              Dicas importantes para escolha correta e manutenção do seu epa
+            </h1>
+          </div>
+          <div class="click-reveal flex--justify-center">
+            <!-- Bullet -->
+            <a
+              class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+              data-html="true"
+              data-position="bottom"
+              data-tooltip-id="bullet-01"
+              style="left: 50%; top: 15%"
+            >
+              <div id="bullet-01" style="display: none">
+                <p class="white-text" style="font-size: 13.5px">
+                  <b>Tamanho do EPA: </b>
+                  escolha sempre o EPA mais confortável e que seja mais adaptado
+                  ao tamanho do seu ouvido. Utilize apenas o EPA indicado pela
+                  Equipe de Saúde e Segurança da sua empresa.
+                </p>
+              </div>
+            </a>
+
+            <!-- Bullet -->
+            <a
+              class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+              data-html="true"
+              data-position="bottom"
+              data-tooltip-id="bullet-02"
+              style="left: 25%; top: 60%"
+            >
+              <div id="bullet-02" style="display: none">
+                <p class="white-text" style="font-size: 13.5px">
+                  <b>Secagem adequada: </b>
+                  após a limpeza, deixe os protetores auditivos secarem
+                  completamente antes de guardá-los. 
+                </p>
+              </div>
+            </a>
+
+            <!-- Bullet -->
+            <a
+              class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+              data-html="true"
+              data-position="bottom"
+              data-tooltip-id="bullet-03"
+              style="left: 20%; top: 80%"
+            >
+              <div id="bullet-03" style="display: none">
+                <p class="white-text" style="font-size: 13.5px">
+                  <b>Armazenamento adequado: </b>
+                  guardar os EPAs em um recipiente limpo e seco quando não
+                  estiverem em uso, protegendo-os da poeira, umidade e danos
+                  físicos.
+                </p>
+              </div>
+            </a>
+
+            <!-- Bullet -->
+            <a
+              class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+              data-html="true"
+              data-position="bottom"
+              data-tooltip-id="bullet-04"
+              style="left: 60%; top: 50%"
+            >
+              <div id="bullet-04" style="display: none">
+                <p class="white-text" style="font-size: 13.5px">
+                  <b>Substituição regular: </b>
+                  substitua os protetores conforme necessário, de acordo com as
+                  recomendações do fabricante ou sempre que começarem a perder
+                  sua forma ou eficácia.
+                </p>
+              </div>
+            </a>
+
+            <!-- Bullet -->
+            <a
+              class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+              data-html="true"
+              data-position="bottom"
+              data-tooltip-id="bullet-05"
+              style="left: 40%; top: 50%"
+            >
+              <div id="bullet-05" style="display: none">
+                <p class="white-text" style="font-size: 13.5px">
+                  <b>Limpeza regular: </b>
+                  para remover acúmulo de sujeira, cera ou outras substâncias.
+                </p>
+              </div>
+            </a>
+
+            <!-- Bullet -->
+            <a
+              class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+              data-html="true"
+              data-position="bottom"
+              data-tooltip-id="bullet-06"
+              style="left: 50%; top: 30%"
+            >
+              <div id="bullet-06" style="display: none">
+                <p class="white-text" style="font-size: 13.5px">
+                  <b>Ajuste correto: </b>
+                  certifique-se de usar os protetores auditivos corretamente,
+                  seguindo as instruções do fabricante para colocá-los
+                  adequadamente no canal auditivo. Um ajuste incorreto pode
+                  comprometer a eficácia da proteção contra o ruído.
+                </p>
+              </div>
+            </a>
+
+            <!-- Bullet -->
+            <a
+              class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+              data-html="true"
+              data-position="bottom"
+              data-tooltip-id="bullet-07"
+              style="left: 26%; top: 30%"
+            >
+              <div id="bullet-07" style="display: none">
+                <p class="white-text" style="font-size: 13.5px">
+                  <b>Inspeção visual: </b>
+                  inspeção regular dos protetores auditivos para garantir que
+                  não haja rachaduras, furos ou outros danos que possam
+                  comprometer sua eficácia.
+                </p>
+              </div>
+            </a>
+
+            <!-- Bullet -->
+            <a
+              class="bullet btn-floating pulse waves-effect waves-light tooltipped"
+              data-html="true"
+              data-position="bottom"
+              data-tooltip-id="bullet-08"
+              style="left: 50%; top: 70%"
+            >
+              <div id="bullet-08" style="display: none">
+                <p class="white-text" style="font-size: 13.5px">
+                  <b>Evite compartilhar: </b>
+                  cada pessoa deve usar seu próprio conjunto de protetores
+                  auditivos, especialmente protetores auriculares moldáveis ou
+                  personalizados, pois, ao emprestar seu EPA, pode aumentar o
+                  risco de infecções no ouvido e contaminação cruzada.
+                </p>
+              </div>
+            </a>
+
+            <img src="src/img/aula/dicas-model.webp" alt="Operário com EPA" />
+          </div>
+        </div>
+
+        <!-- Cuidados Concha------------------------------------>
+        <div id="cuidados-concha">
+          <div class="bg-blue-deep py-80">
+            <div class="container--medium white-text">
+              <div class="row">
+                <div class="col m5 s12">
+                  <h1 class="white-text" data-aos="fade-up">
+                    Cuidados e conservação do protetor tipo concha
+                  </h1>
+                  <img
+                    class="p-32"
+                    src="src/img/aula/concha.webp"
+                    alt="Plug"
+                    style="width: 100%"
+                  />
+                </div>
+                <div class="col m1 s12"></div>
+                <div class="col m6 s12">
+                  <ul>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Lavar quando necessário com água morna e sabão neutro. 
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Colocar para secar à sombra em local ventilado.
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Armazenar em bolsa, sacola ou caixa apropriada. 
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Mantenha o protetor auricular sempre limpo e em boas
+                        condições de uso.
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Não manusear com as mãos sujas. O equipamento não deve
+                        ter contato com álcool ou outros solventes químicos. 
+                      </p>
+                    </li>
+                    <li class="flex--align-start mb-24">
+                      <img
+                        class="mr-16"
+                        src="src/img/aula/check.svg"
+                        alt="Check"
+                      />
+                      <p class="m-0">
+                        Quando não utilizado, conservar na caixa ou local
+                        apropriado, livre de contato com sujeira e produtos
+                        químicos. 
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h1 class="white-text my-24">Atenção</h1>
+              <div class="row py-24 px-16" style="border: 1px solid white">
+                <div class="col m6 s12">
+                  <ul>
+                    <li class="mb-32">
+                      <p>
+                        Deverá ser substituído quando apresentar avarias ou
+                        qualquer tipo de dano que possa prejudicar a proteção do
+                        usuário. 
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col m6 s12">
+                  <ul>
+                    <li class="mb-32">
+                      <p>
+                        A vida útil varia de acordo com as condições de uso e
+                        higiene.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="referencias" class="pt-80 container--medium">
+          <div class="row">
+            <div class="col m2 s12"></div>
+            <div class="col m5 s12 flex--align-center">
+              <h1 data-aos="fade-up">Referências</h1>
+            </div>
+            <div class="col m5 s12">
+              <ul>
+                <li class="mb-8">
+                  <a
+                    href="https://multimedia.3m.com/mws/media/1030355O/catalogo.pdf"
+                    target="_blank"
+                    >Cartilha de proteção auditiva 3M</a
+                  >
+                </li>
+                <li class="mb-8">
+                  <a
+                    href="https://www.segurancadotrabalho.ufv.br/wp-content/uploads/2021/04/pop_epi_11_protetor_auditivo_plug.pdf"
+                    target="_blank"
+                    >Protetor Auditivo Plug</a
+                  >
+                </li>
+                <li class="mb-8">
+                  <a
+                    href="https://www.segurancadotrabalho.ufv.br/wp-content/uploads/2021/04/pop_epi_10_protetor_auditivo_concha.pdf"
+                    target="_blank"
+                    >Protetor Auditivo Concha</a
+                  >
+                </li>
+                <li class="mb-8">
+                  <a
+                    href="https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/arquivos/normas-regulamentadoras/nr-15-anexo-01.pdf"
+                    target="_blank"
+                    >NR 15 - ATIVIDADES E OPERAÇÕES INSALUBRES
+                  </a>
+                </li>
+                <li class="mb-8">
+                  <a
+                    href="https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-6-nr-6#:~:text=A%20Norma%20Regulamentadora%20n%C2%BA%206,setores%20ou%20atividades%20econ%C3%B4micas%20espec%C3%ADficas"
+                    target="_blank"
+                    >Norma Regulamentadora No. 6 (NR-6)</a
+                  >
+                </li>
+                <li class="mb-8">
+                  <a
+                    href="http://sp.cefac.br/alunminus/cefac/biblioteca/publicacoes/arquivos/0000417_TR26.PDF"
+                    target="_blank"
+                    >RUÍDO : EFEITOS EXTRA-AUDITIVOS NO CORPO HUMANO</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Concluir ---------------------------------- -->
+        <concluir></concluir>
+
+        <!-- Footer ------------------------------------>
+        <app-footer></app-footer>
+      </div>
+    </div>
+  </body>
+</html>
