@@ -17,7 +17,7 @@ export default {
       items: [
         {
           id: 1,
-          img: "src/img/aula/epa-01.webp",
+          img: "src/img/aula/epa.jpg",
           alt: "EPA",
 
           
@@ -62,7 +62,7 @@ export default {
         },
         {
           id: 4,
-          img: "src/img/aula/epa-04.webp",
+          img: "src/img/aula/item3.jpg",
           alt: "EPA",
 
           

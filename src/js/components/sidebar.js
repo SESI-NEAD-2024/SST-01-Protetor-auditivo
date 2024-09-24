@@ -22,7 +22,7 @@ export default {
         const to = document.querySelector(id).offsetTop;
 
         window.scroll({
-          top: to - 60,
+          top: to - 120,
           behavior: "smooth",
         });
       }
@@ -96,14 +96,15 @@ export default {
     <li>
       <a href="#cuidados">11: Cuidados e conservação do protetor tipo PLUG</a>
     </li>
+    
     <li>
-      <a href="#dicas">12: Dicas importantes para escolha correta e manutenção do seu EPA</a>
+      <a href="#cuidados-concha">12: Cuidados e conservação do protetor tipo concha</a>
     </li>
     <li>
-      <a href="#cuidados-concha">13: Cuidados e conservação do protetor tipo concha</a>
+      <a href="#dicas">13: Dicas importantes para escolha correta e manutenção do seu EPA</a>
     </li>
     <li>
-      <a href="#concluir">14: Conclusão</a>
+      <a href="#referencias">14: Conclusão</a>
     </li>
   </ul>
   `,
