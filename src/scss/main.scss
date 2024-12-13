@@ -213,6 +213,16 @@ td {
   }
 }
 
+#fatores{
+  background-image: url("../img/aula/fatores.webp");
+  background-size: cover;
+  background-position: 40% 50%;
+
+  @include mobile{
+    background-position: 100% 50%;
+  }
+}
+
 .video-img {
   position: relative;
   display: block;
@@ -310,3 +320,5 @@ td {
     width: 100%;
   }
 }
+
+

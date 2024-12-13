@@ -12865,8 +12865,8 @@ nav .progress {
 }
 @media only screen and (max-width : 600.99px) {
   .carousel-sst, .carousel-sst-cards-reveal, .carousel-sst-02 {
-    --carousel-height: 650px;
-    --carousel-item-height: 650px;
+    --carousel-height: 400px;
+    --carousel-item-height: 400px;
   }
 }
 .carousel-sst .carousel.carousel-slider .carousel-fixed-item.with-indicators, .carousel-sst-cards-reveal .carousel.carousel-slider .carousel-fixed-item.with-indicators, .carousel-sst-02 .carousel.carousel-slider .carousel-fixed-item.with-indicators {
@@ -13419,6 +13419,17 @@ td {
 }
 .pulse-review .pulse:hover {
   background-color: #b2e1f2 !important;
+}
+
+#fatores {
+  background-image: url("../img/aula/fatores.webp");
+  background-size: cover;
+  background-position: 40% 50%;
+}
+@media only screen and (max-width : 600.99px) {
+  #fatores {
+    background-position: 100% 50%;
+  }
 }
 
 .video-img {
